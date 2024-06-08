@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="466.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.SdnfController">
+      <TableView fx:id="tableView" editable="true" layoutX="2.0" prefHeight="379.0" prefWidth="648.0">
+          <columns>
+              <TableColumn prefWidth="130.0" text="X1" fx:id="x1" />
+              <TableColumn prefWidth="133.39996337890625" text="X2" fx:id="x2" />
+              <TableColumn prefWidth="145.0" text="X3" fx:id="x3" />
+              <TableColumn fx:id="res" prefWidth="237.60003662109375" text="ФУНКЦИЯ" />
+          </columns>
+      </TableView>
+     <Button layoutX="218.0" layoutY="390.0" mnemonicParsing="false" onAction="#onCountClick" prefHeight="66.0" prefWidth="212.0" text="Рассчитать!">
+         <font>
+           <Font name="Arial" size="19.0" />
+         </font>
+     </Button>
+</AnchorPane>
